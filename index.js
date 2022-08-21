@@ -101,10 +101,10 @@ class Shop{
 function liftRight(){
     doLift = false
     setTimeout(function(){
-        plyr.src = "Right Up.svg"
+        plyr.src = "https://github.com/Pekka-Legend/Lift-to-Gain/blob/main/Right%20Up.svg"
         setTimeout(function(){
             doLift = true
-            plyr.src = "Left Down.svg"
+            plyr.src = "https://github.com/Pekka-Legend/Lift-to-Gain/blob/main/Left%20Down.svg"
             trueArm = 'left'
         }, 200)
     }, 500)
@@ -113,10 +113,10 @@ function liftRight(){
 function liftLeft(){
     doLift = false
     setTimeout(function(){
-        plyr.src = "Left Up.svg"
+        plyr.src = "https://github.com/Pekka-Legend/Lift-to-Gain/blob/main/Left%20Up.svg"
             setTimeout(function(){
             doLift = true
-            plyr.src = "Right Down.svg"
+            plyr.src = "https://github.com/Pekka-Legend/Lift-to-Gain/blob/main/Right%20Down.svg"
             trueArm = 'right'
         }, 200)
     }, 500)
